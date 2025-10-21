@@ -14,7 +14,7 @@ Our approach aims to [].
 
 ## 🏗️ Architecture
 <p align="center">
-  <img src="figures/[architecture_image_name].png" alt="Framework Overview" width="80%">
+  <img src="figure2.png" alt="Framework Overview" width="80%">
 </p>
 
 **Figure:** The overall architecture of the proposed framework.
