@@ -1,13 +1,13 @@
 import argparse
 import os
 import torch
-from d3g.config import cfg
-from d3g.data import make_data_loader
-from d3g.engine.inference import inference
-from d3g.modeling import build_model
-from d3g.utils.checkpoint import CheckpointManager
-from d3g.utils.comm import synchronize, get_rank
-from d3g.utils.logger import setup_logger
+from PointDiff.config import cfg
+from PointDiff.data import make_data_loader
+from PointDiff.engine.inference import inference
+from PointDiff.modeling import build_model
+from PointDiff.utils.checkpoint import CheckpointManager
+from PointDiff.utils.comm import synchronize, get_rank
+from PointDiff.utils.logger import setup_logger
 
 def main():
     parser = argparse.ArgumentParser(description="D3G")
