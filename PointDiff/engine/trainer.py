@@ -6,10 +6,10 @@ import gc
 import torch
 import torch.distributed as dist
 
-from d3g.utils.comm import get_world_size, synchronize
-from d3g.utils.metric_logger import MetricLogger
-from d3g.engine.inference import inference
-from d3g.modeling.d3g import init_glance_memory
+from PointDiff.utils.comm import get_world_size, synchronize
+from PointDiff.utils.metric_logger import MetricLogger
+from PointDiff.engine.inference import inference
+from PointDiff.modeling.PointDiff import init_glance_memory
 
 
 def reduce_loss(loss):
