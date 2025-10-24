@@ -8,15 +8,15 @@ import torch.multiprocessing as mp
 import sys
 import os.path as osp
 sys.path.append('./')
-from d3g.data import make_data_loader
-from d3g.config import cfg
-from d3g.engine.inference import inference
-from d3g.engine.trainer import do_train
-from d3g.modeling import build_model
-from d3g.utils.checkpoint import CheckpointManager
-from d3g.utils.comm import synchronize, get_rank
-from d3g.utils.logger import setup_logger
-from d3g.utils.miscellaneous import mkdir, save_config
+from PointDiff.data import make_data_loader
+from PointDiff.config import cfg
+from PointDiff.engine.inference import inference
+from PointDiff.engine.trainer import do_train
+from PointDiff.modeling import build_model
+from PointDiff.utils.checkpoint import CheckpointManager
+from PointDiff.utils.comm import synchronize, get_rank
+from PointDiff.utils.logger import setup_logger
+from PointDiff.utils.miscellaneous import mkdir, save_config
 
     
 def train(cfg, local_rank, distributed):
