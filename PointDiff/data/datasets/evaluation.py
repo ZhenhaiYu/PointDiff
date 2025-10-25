@@ -3,8 +3,8 @@ from tqdm import tqdm
 import logging
 import torch
 import json 
-from d3g.data.datasets.utils import iou, score2d_to_moments_scores
-from d3g.utils.comm import is_main_process
+from PointDiff.data.datasets.utils import iou, score2d_to_moments_scores
+from PointDiff.utils.comm import is_main_process
 
 
 def nms(moments, scores, thresh):
