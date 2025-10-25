@@ -1,6 +1,6 @@
 import torch
 from torch.nn.utils.rnn import pad_sequence
-from d3g.structures import TLGBatch
+from PointDiff.structures import TLGBatch
 
 
 class BatchCollator(object):
