@@ -1,0 +1,6 @@
+torch==1.13.0
+numpy==1.26.4
+transformers==4.37.2
+huggingface-hub==0.36.2
+tokenizers==0.15.2
+h5py==3.14.0
